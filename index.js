@@ -10,7 +10,7 @@ app.set("view engine","ejs");
 app.set("views",path.resolve("./views"))
 
 app.get("/",(req,res)=>{
-    res.render("index")
+    res.render("about")
 })
 
 app.listen(PORT,()=>{
